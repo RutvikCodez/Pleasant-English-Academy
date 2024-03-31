@@ -11,6 +11,7 @@ import {
 import Image from "next/image";
 import { Button } from "@nextui-org/react";
 import TitleDesc from "../TitleDesc";
+import BookAnInquiry from "./BookAnInquiry";
 
 const HeroSection = () => {
   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
@@ -41,9 +42,7 @@ const HeroSection = () => {
                   title="PLEASANT ENGLISH ACADEMY"
                   wrapperClass="text-gray-400 max-w-[1000px]"
                 />
-                <Button className="bg-black p-4 rounded-md hover:bg-green-500 transition-colors duration-300">
-                  Book an Inquiry
-                </Button>
+                <BookAnInquiry />
               </div>
             </div>
           </CarouselItem>

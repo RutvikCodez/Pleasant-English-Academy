@@ -35,7 +35,7 @@ const FeaturesContent = () => {
       ];
       
   return (
-    <section className="w-full h-screen flex items-center justify-center">
+    <section className="w-full h-full flex items-center justify-center py-10">
       <div className="container flex flex-col gap-12 px-4 md:px-6">
         <div className="flex flex-col items-center justify-center gap-y-4 text-center">
           <div className="inline-block rounded-lg bg-gray-800 px-3 py-1 text-sm dark:bg-gray-800">
