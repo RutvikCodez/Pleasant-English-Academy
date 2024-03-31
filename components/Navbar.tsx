@@ -19,8 +19,8 @@ const NavbarComponent = () => {
       path: "/about",
     },
     {
-      name: "Pricing",
-      path: "/pricing",
+      name: "Services",
+      path: "/services",
     },
     {
       name: "Team",
@@ -28,7 +28,7 @@ const NavbarComponent = () => {
     },
   ];
   return (
-    <Navbar className="px-10 border-b border-white">
+    <Navbar className="px-10 border-b border-white flex justify-between">
       <NavbarBrand>
         <div className="font-semibold font-serif flex flex-col">
           <h2 className="text-3xl">PLEASANT</h2>
