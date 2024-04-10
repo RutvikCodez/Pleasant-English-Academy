@@ -12,16 +12,10 @@ import Image from "next/image";
 import { Button } from "@nextui-org/react";
 import TitleDesc from "../TitleDesc";
 import BookAnInquiry from "./BookAnInquiry";
+import { imageUrls } from "@/utils/getData";
 
 const HeroSection = () => {
   const plugin = useRef(Autoplay({ delay: 2000, stopOnInteraction: true }));
-
-  const Imageurls = [
-    "/static/pea.jpg",
-    "/static/pea2.jpg",
-    "/static/pea3.jpg",
-    "/static/pea4.jpg",
-  ];
   return (
     <Carousel
       plugins={[plugin.current]}
@@ -30,7 +24,7 @@ const HeroSection = () => {
       onMouseLeave={plugin.current.reset}
     >
       <CarouselContent>
-        {Imageurls.map((e, i) => (
+        {imageUrls.map((e, i) => (
           <CarouselItem key={i} className="h-[90vh] bg-white">
             <div className="relative w-full h-full">
               <Image alt="carasoul image abient" src={e} fill />

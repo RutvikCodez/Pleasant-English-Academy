@@ -2,7 +2,7 @@
 import { Drawer, DrawerContent, DrawerTrigger } from "@/components/ui/drawer";
 import React, { useEffect, useState } from "react";
 import { usePathname } from "next/navigation";
-import { Feather, Menu, X } from "lucide-react";
+import { Menu, X } from "lucide-react";
 import Link from "next/link";
 
 type props = {

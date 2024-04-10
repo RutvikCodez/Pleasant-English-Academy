@@ -1,20 +1,9 @@
 import React from "react";
 import TitleDesc from "../TitleDesc";
 import Image from "next/image";
+import { testimonialsData } from "@/utils/getData";
 
 const Testimonials = () => {
-  const data = [
-    {
-      imagepath: "/static/Rutvik.jpg",
-      name: "Rutvik Darji",
-      desc: "I've been learning English with the academy for 6 months, and myconfidence has improved significantly. The teachers aresupportive and the classes are engaging. I highly recommend thisacademy to anyone who wants to learn English.",
-    },
-    {
-      imagepath: "/static/Rutvik.jpg",
-      name: "Mark Lee",
-      desc: "The academy's personalized learning plans have helped me progress quickly. The classes are interactive and the teachers are encouraging. I feel more confident speaking English after joining this academy.",
-    },
-  ];
   return (
     <section className="w-full">
       <div className="container grid items-center gap-4 px-4 text-center md:px-6 lg:gap-10">
@@ -24,7 +13,7 @@ const Testimonials = () => {
           title="Testimonials"
         />
         <div className="mx-auto grid max-w-3xl items-start gap-6 sm:max-w-4xl lg:grid-cols-2 lg:gap-12">
-          {data.map((e, i) => (
+          {testimonialsData.map((e, i) => (
             <div key={i} className="flex flex-col items-center gap-y-2">
               <div className="relative w-40 h-w-40 aspect-square object-cover">
                 <Image

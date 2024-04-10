@@ -6,28 +6,10 @@ import {
   NavbarContent,
   NavbarItem,
 } from "@nextui-org/react";
-import Image from "next/image";
 import MobileSidebar from "./Hamburger";
+import { navbarData } from "@/utils/getData";
 
 const NavbarComponent = () => {
-  const data = [
-    {
-      name: "Features",
-      path: "/features",
-    },
-    {
-      name: "About",
-      path: "/about",
-    },
-    {
-      name: "Services",
-      path: "/services",
-    },
-    {
-      name: "Team",
-      path: "/team",
-    },
-  ];
   return (
     <Navbar className="px-10 border-b border-white flex justify-between max-md:px-3">
       <NavbarBrand>
@@ -37,7 +19,7 @@ const NavbarComponent = () => {
         </div>
       </NavbarBrand>
       <NavbarContent className="hidden md:flex gap-4" justify="center">
-        {data.map((e, i) => (
+        {navbarData.map((e, i) => (
           <NavbarItem key={i}>
             <Link color="foreground" href={e.path} className="text-lg">
               {e.name}
@@ -46,7 +28,7 @@ const NavbarComponent = () => {
         ))}
       </NavbarContent>
           <div className="md:hidden">
-            <MobileSidebar data={data} />
+            <MobileSidebar data={navbarData} />
           </div>
     </Navbar>
   );
