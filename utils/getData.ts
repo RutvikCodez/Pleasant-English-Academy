@@ -144,29 +144,42 @@ export const visaProcessData = [
 export const teamData = [
   {
     name: "Rajput Sir",
-    role: "English Language Expert",
-    desc: "Rajput Sir has been teaching English for over 10 years and is an expert in English grammar and pronunciation. His classes are engaging and fun, and he always encourages his students to practice speaking.",
+    role: "Director",
+    desc: "Rajput Sir has been guiding the academy with his vision and expertise for over a decade. With a profound understanding of English language teaching, he ensures the academy maintains high standards and delivers quality education to students.",
     imageurl: "/static/Rutvik.jpg",
   },
   {
     name: "Dhara Mam",
-    role: "Certified English Teacher",
-    desc: "Dhara mam is a friendly and patient teacher who enjoys helping students improve their English skills. She has a passion for teaching and always creates interesting lessons for her students.",
+    role: "Spoken English Teacher",
+    desc: "Dhara Mam is known for her patient and interactive teaching style. She focuses on helping students build confidence in spoken English through engaging activities and personalized attention, making learning enjoyable and effective.",
     imageurl: "/static/Rutvik.jpg",
   },
   {
     name: "Priyanka Mam",
-    role: "Experienced English Teacher",
-    desc: "Priyanka Mam is a dedicated and experienced English teacher who provides lessons to help students improve their english language skills. She uses interactive materials and engaging activities to make learning English enjoyable.",
+    role: "Spoken English Teacher",
+    desc: "Priyanka Mam brings years of teaching experience to the classroom, specializing in improving students' English language skills. Her dynamic teaching methods and emphasis on practical application ensure students make rapid progress in their language proficiency.",
+    imageurl: "/static/Rutvik.jpg",
+  },
+  {
+    name: "Akaash Sir",
+    role: "Spoken English Teacher",
+    desc: "Akaash Sir is dedicated to helping students develop fluent English speaking skills. With a focus on conversation practice and real-life scenarios, he fosters an environment where students feel confident expressing themselves in English.",
     imageurl: "/static/Rutvik.jpg",
   },
   {
     name: "Ritu Mam",
-    role: "English Conversation Coach",
-    desc: "Ritu Mam is an enthusiastic teacher who specializes in teaching English conversation. She creates a supportive and encouraging environment for her students to practice speaking English with confidence.",
+    role: "IELTS Teacher",
+    desc: "Ritu Mam specializes in IELTS preparation, providing comprehensive guidance and resources to help students achieve their desired scores. With detailed feedback and personalized strategies, she ensures students are well-prepared for the exam.",
+    imageurl: "/static/Rutvik.jpg",
+  },
+  {
+    name: "Abhay Sir",
+    role: "PTE Teacher",
+    desc: "Abhay Sir is an expert in PTE training, offering targeted instruction and practice materials to help students excel in the exam. With a focus on improving all language skills, he prepares students to achieve their desired scores.",
     imageurl: "/static/Rutvik.jpg",
   },
 ];
+
 
 export const inputFieldsData: {
   name: "name" | "phoneNumber" | "email" | "time";
