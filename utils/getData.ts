@@ -142,31 +142,31 @@ export const visaProcessData = [
 ];
 
 export const teamData = [
-    {
-      name: "Rajput Sir",
-      role: "English Language Expert",
-      desc: "Rajput Sir has been teaching English for over 10 years and is an expert in English grammar and pronunciation. His classes are engaging and fun, and he always encourages his students to practice speaking.",
-      imageurl: "/static/Rutvik.jpg",
-    },
-    {
-      name: "Dhara Mam",
-      role: "Certified English Teacher",
-      desc: "Dhara mam is a friendly and patient teacher who enjoys helping students improve their English skills. She has a passion for teaching and always creates interesting lessons for her students.",
-      imageurl: "/static/Rutvik.jpg",
-    },
-    {
-      name: "Priyanka Mam",
-      role: "Experienced English Teacher",
-      desc: "Priyanka Mam is a dedicated and experienced English teacher who provides lessons to help students improve their english language skills. She uses interactive materials and engaging activities to make learning English enjoyable.",
-      imageurl: "/static/Rutvik.jpg",
-    },
-    {
-      name: "Ritu Mam",
-      role: "English Conversation Coach",
-      desc: "Ritu Mam is an enthusiastic teacher who specializes in teaching English conversation. She creates a supportive and encouraging environment for her students to practice speaking English with confidence.",
-      imageurl: "/static/Rutvik.jpg",
-    },
-  ];
+  {
+    name: "Rajput Sir",
+    role: "English Language Expert",
+    desc: "Rajput Sir has been teaching English for over 10 years and is an expert in English grammar and pronunciation. His classes are engaging and fun, and he always encourages his students to practice speaking.",
+    imageurl: "/static/Rutvik.jpg",
+  },
+  {
+    name: "Dhara Mam",
+    role: "Certified English Teacher",
+    desc: "Dhara mam is a friendly and patient teacher who enjoys helping students improve their English skills. She has a passion for teaching and always creates interesting lessons for her students.",
+    imageurl: "/static/Rutvik.jpg",
+  },
+  {
+    name: "Priyanka Mam",
+    role: "Experienced English Teacher",
+    desc: "Priyanka Mam is a dedicated and experienced English teacher who provides lessons to help students improve their english language skills. She uses interactive materials and engaging activities to make learning English enjoyable.",
+    imageurl: "/static/Rutvik.jpg",
+  },
+  {
+    name: "Ritu Mam",
+    role: "English Conversation Coach",
+    desc: "Ritu Mam is an enthusiastic teacher who specializes in teaching English conversation. She creates a supportive and encouraging environment for her students to practice speaking English with confidence.",
+    imageurl: "/static/Rutvik.jpg",
+  },
+];
 
 export const inputFieldsData: {
   name: "name" | "phoneNumber" | "email" | "time";
@@ -200,3 +200,79 @@ export const inputFieldsData: {
   },
 ];
 
+export const ieltsData = {
+  title: "IELTS Exam Overview",
+  desc: "Prepare for success in the IELTS exam by understanding its key components and requirements.",
+  information: [
+    {
+      name: "Listening Section",
+      desc: "Sharpen your listening skills through four recorded monologues and conversations. Answer questions based on what you hear to succeed in this section.",
+    },
+    {
+      name: "Reading Section",
+      desc: "Enhance your reading comprehension with three long texts from various sources. Answer a range of questions to demonstrate your understanding.",
+    },
+    {
+      name: "Writing Section",
+      desc: "Demonstrate your writing skills through two tasks. Describe visual information in Task 1 and present an argument in Task 2, showcasing your proficiency in written English.",
+    },
+    {
+      name: "Speaking Section",
+      desc: "Engage in a face-to-face interview with an examiner. Share your thoughts on familiar topics, speak on a given topic, and participate in a discussion to showcase your speaking abilities.",
+    },
+  ],
+};
+
+export const PteData = {
+  title: "PTE Exam Overview",
+  desc: "Prepare for success in the PTE exam by understanding its key components and requirements.",
+  information: [
+    {
+      name: "Listening Section",
+      desc: "Sharpen your listening skills through four recorded monologues and conversations. Answer questions based on what you hear to succeed in this section.",
+    },
+    {
+      name: "Reading Section",
+      desc: "Enhance your reading comprehension with three long texts from various sources. Answer a range of questions to demonstrate your understanding.",
+    },
+    {
+      name: "Writing Section",
+      desc: "Demonstrate your writing skills through two tasks. Describe visual information in Task 1 and present an argument in Task 2, showcasing your proficiency in written English.",
+    },
+    {
+      name: "Speaking Section",
+      desc: "Engage in a face-to-face interview with an examiner. Share your thoughts on familiar topics, speak on a given topic, and participate in a discussion to showcase your speaking abilities.",
+    },
+  ],
+};
+
+export const spokenData = {
+  title: "Spoken English",
+  desc: "Elevate your spoken English skills through interactive courses. Build confidence in conversation and fluency.",
+  information: [
+    {
+      name: "A to Z Dictionary",
+      desc: "Explore the richness of the English language with our comprehensive A to Z dictionary. Enhance your vocabulary and language understanding.",
+    },
+    {
+      name: "Grammar",
+      desc: "Master the rules and intricacies of English grammar. Our courses focus on building a strong foundation in grammar for effective communication.",
+    },
+    {
+      name: "English to Gujarati Translation",
+      desc: " Immerse yourself in translation exercises to bridge the gap between English and Gujarati. Develop proficiency in both languages.",
+    },
+    {
+      name: "Gujarati to English Translation",
+      desc: "Hone your skills in translating from Gujarati to English. Practice and enhance your ability to express ideas seamlessly in both languages.",
+    },
+    {
+      name: "Group Discussion",
+      desc: "Participate in group discussions to enhance your communication skills. Engage in meaningful conversations on various topics and express your opinions effectively.",
+    },
+    {
+      name: "Stage Speaking",
+      desc: "Showcase your spoken English proficiency on stage. Develop confidence, clarity, and stage presence through interactive speaking sessions.",
+    },
+  ],
+};
