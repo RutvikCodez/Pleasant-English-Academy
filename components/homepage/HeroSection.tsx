@@ -28,7 +28,7 @@ const HeroSection = () => {
           <CarouselItem key={i} className="h-[90vh] bg-white">
             <div className="relative w-full h-full">
               <Image alt="carasoul image abient" src={e} fill />
-              <div className="absolute inset-0 bg-black opacity-85"></div>
+              <div className="absolute inset-0 bg-black opacity-70"></div>
               <div className="absolute top-0 left-0 right-0 bottom-0 w-full h-full flex flex-col justify-center items-center gap-3">
                 <TitleDesc
                   desc="Let us guide you to confident communication. Immerse yourself

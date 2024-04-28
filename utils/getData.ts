@@ -1,8 +1,9 @@
 export const imageUrls = [
-  "/static/pea.jpg",
-  "/static/pea2.jpg",
-  "/static/pea3.jpg",
-  "/static/pea4.jpg",
+  "/static/ss1.jpg",
+  "/static/ss2.jpg",
+  "/static/ss3.jpg",
+  "/static/ss5.jpg",
+  "/static/ss6.jpg",
 ];
 
 export const courcesData = [
@@ -149,31 +150,31 @@ export const teamData = [
     imageurl: "/static/Rutvik.jpg",
   },
   {
-    name: "Dhara Mam",
+    name: "Dharaben Vyas",
     role: "Spoken English Teacher",
     desc: "Dhara Mam is known for her patient and interactive teaching style. She focuses on helping students build confidence in spoken English through engaging activities and personalized attention, making learning enjoyable and effective.",
     imageurl: "/static/Rutvik.jpg",
   },
   {
-    name: "Priyanka Mam",
+    name: "Priyankaben Patel",
     role: "Spoken English Teacher",
     desc: "Priyanka Mam brings years of teaching experience to the classroom, specializing in improving students' English language skills. Her dynamic teaching methods and emphasis on practical application ensure students make rapid progress in their language proficiency.",
     imageurl: "/static/Rutvik.jpg",
   },
   {
-    name: "Akaash Sir",
+    name: "Akaashkumar Patel",
     role: "Spoken English Teacher",
     desc: "Akaash Sir is dedicated to helping students develop fluent English speaking skills. With a focus on conversation practice and real-life scenarios, he fosters an environment where students feel confident expressing themselves in English.",
     imageurl: "/static/Rutvik.jpg",
   },
   {
-    name: "Ritu Mam",
+    name: "Rituben Patel",
     role: "IELTS Teacher",
     desc: "Ritu Mam specializes in IELTS preparation, providing comprehensive guidance and resources to help students achieve their desired scores. With detailed feedback and personalized strategies, she ensures students are well-prepared for the exam.",
     imageurl: "/static/Rutvik.jpg",
   },
   {
-    name: "Abhay Sir",
+    name: "Abhaysinh Rajput",
     role: "PTE Teacher",
     desc: "Abhay Sir is an expert in PTE training, offering targeted instruction and practice materials to help students excel in the exam. With a focus on improving all language skills, he prepares students to achieve their desired scores.",
     imageurl: "/static/Rutvik.jpg",

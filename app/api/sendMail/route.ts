@@ -31,7 +31,7 @@ export async function POST(request: NextRequest) {
 
   const mymail = {
     from: "darjirutvik049@gmail.com",
-    to: "rutvikdarji21@gnu.ac.in",
+    to: "pleasantenglish13@gmail.com",
     subject: "New Form Submission",
     text: `Name: ${name}\nEmail: ${email}\nMobile No: ${phoneNumber}\nTime: ${time}`,
   };
