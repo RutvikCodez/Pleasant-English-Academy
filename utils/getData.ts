@@ -51,6 +51,10 @@ export const navbarData = [
     name: "Team",
     path: "/team",
   },
+  {
+    name: "Gallery",
+    path: "/gallery",
+  },
 ];
 
 export const aboutData = [
@@ -290,3 +294,70 @@ export const spokenData = {
     },
   ],
 };
+
+export const imagesData = [
+  {
+    alt: "Director",
+    src: "/static/class/img1.jpg",
+    description: "The director instructing a class.",
+  },
+  {
+    alt: "Spoken English Class",
+    src: "/static/class/img2.jpg",
+    description: "Students actively participating in a spoken English class.",
+  },
+  {
+    alt: "PTE Class",
+    src: "/static/class/img3.jpg",
+    description: "Students preparing for the PTE exam with their instructor.",
+  },
+  {
+    alt: "Student Inquiry",
+    src: "/static/class/img4.jpg",
+    description: "Students inquiring about courses from the director.",
+  },
+  {
+    alt: "Spoken English Session",
+    src: "/static/class/img5.jpg",
+    description: "Students engaged in a spoken English learning session.",
+  },
+  {
+    alt: "Spoken English Learning",
+    src: "/static/class/img6.jpg",
+    description: "Students practicing spoken English with their teacher.",
+  },
+  {
+    alt: "PTE Preparation",
+    src: "/static/class/img7.jpg",
+    description: "Students preparing for the PTE exam with their instructor.",
+  },
+  {
+    alt: "IELTS Class",
+    src: "/static/class/img8.jpg",
+    description: "Students attending an IELTS preparation class.",
+  },
+  {
+    alt: "Class Session",
+    src: "/static/class/img9.jpg",
+    description: "Students actively participating in a class session.",
+  },
+];
+
+export const videoData = [
+  {
+    alt: "Students preparing for PTE exam",
+    video: "/static/class/video1.mp4",
+    description: "Students preparing for PTE exam.",
+  },
+  {
+    alt: "Group discussion: Importance of English",
+    video: "/static/class/video4.mp4",
+    description:
+      "Students engaging in a group discussion about the importance of English.",
+  },
+  {
+    alt: "Group discussion: Why choose us?",
+    video: "/static/class/video5.mp4",
+    description: "Students discussing reasons for choosing our academy.",
+  },
+];
