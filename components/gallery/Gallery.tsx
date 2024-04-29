@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import TitleDesc from "../TitleDesc";
-import { imagesData, videoData } from "@/utils/getData";
+import { imagesData } from "@/utils/getData";
 
 const Gallery = () => {
   return (
