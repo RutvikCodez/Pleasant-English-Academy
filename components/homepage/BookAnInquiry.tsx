@@ -15,7 +15,7 @@ const BookAnInquiry = () => {
         Book an Inquiry
       </DialogTrigger>
       <DialogContent className="bg-black text-white">
-        <BookAnInquiryForm />
+        <BookAnInquiryForm setopen={setopen} />
       </DialogContent>
     </Dialog>
   );

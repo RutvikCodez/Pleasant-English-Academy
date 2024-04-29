@@ -41,29 +41,6 @@ const Gallery = () => {
             ))}
           </div>
         </div>
-
-        <div>
-          <h2 className="text-2xl font-semibold mb-4">
-            Student Engagements and Activities
-          </h2>
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {videoData.map((e, i) => (
-              <div
-                key={i}
-                className="group relative overflow-hidden rounded-lg text-center"
-              >
-                <video controls width="100%" className="object-cover">
-                  <source src={e.video} type="video/mp4" />
-                  Your browser does not support the video tag.
-                </video>
-                <h3 className="text-lg font-semibold text-white">
-                  {e.alt}
-                </h3>
-                <p className="text-sm text-gray-300">{e.description}</p>
-              </div>
-            ))}
-          </div>
-        </div>
       </div>
     </section>
   );

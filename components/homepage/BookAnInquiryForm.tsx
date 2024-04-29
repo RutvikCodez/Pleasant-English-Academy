@@ -18,9 +18,13 @@ import { inputFieldsData } from "@/utils/getData";
 import { bookInquiryFormSchema } from "@/utils/getFormSchema";
 import { toast } from 'sonner';
 
+type Props = {
+  setopen: React.Dispatch<React.SetStateAction<boolean>> 
+}
+
 const formSchema = bookInquiryFormSchema;
 
-const BookAnInquiryForm = () => {
+const BookAnInquiryForm = ({setopen}:Props) => {
   const form = useForm<z.infer<typeof formSchema>>({
     resolver: zodResolver(formSchema),
     defaultValues: {
@@ -45,9 +49,15 @@ const BookAnInquiryForm = () => {
       toast.success(data)
       toast.dismiss(loader)
       form.reset()
+      setTimeout(() => {
+        setopen(false)
+      }, 500);
     } catch (error) {
       toast.error("Internal Server Error")
       toast.dismiss(loader)
+      setTimeout(() => {
+        setopen(false)
+      }, 500);
     }
   }
 

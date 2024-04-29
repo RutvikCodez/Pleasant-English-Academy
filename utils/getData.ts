@@ -342,22 +342,3 @@ export const imagesData = [
     description: "Students actively participating in a class session.",
   },
 ];
-
-export const videoData = [
-  {
-    alt: "Students preparing for PTE exam",
-    video: "/static/class/video1.mp4",
-    description: "Students preparing for PTE exam.",
-  },
-  {
-    alt: "Group discussion: Importance of English",
-    video: "/static/class/video4.mp4",
-    description:
-      "Students engaging in a group discussion about the importance of English.",
-  },
-  {
-    alt: "Group discussion: Why choose us?",
-    video: "/static/class/video5.mp4",
-    description: "Students discussing reasons for choosing our academy.",
-  },
-];
