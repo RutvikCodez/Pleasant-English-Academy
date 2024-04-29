@@ -47,26 +47,21 @@ const Gallery = () => {
             Student Engagements and Activities
           </h2>
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
-            {videoData.map((video, index) => {
-              return (
-                <div
-                  key={index}
-                  className="group relative overflow-hidden rounded-lg"
-                >
-                  <video controls width="100%" className="object-cover">
-                    <source src={video.video} type="video/mp4" />
-                    Your browser does not support the video tag.
-                  </video>
-                  <div className="absolute inset-0 bg-gray-900/50 transition-all duration-300 group-hover:bg-gray-900/0" />
-                  <div className="absolute bottom-0 left-0 right-0 px-4 py-3 text-center">
-                    <h3 className="text-lg font-semibold text-white">
-                      {video.alt}
-                    </h3>
-                    <p className="text-sm text-gray-300">{video.description}</p>
-                  </div>
-                </div>
-              );
-            })}
+            {videoData.map((e, i) => (
+              <div
+                key={i}
+                className="group relative overflow-hidden rounded-lg text-center"
+              >
+                <video controls width="100%" className="object-cover">
+                  <source src={e.video} type="video/mp4" />
+                  Your browser does not support the video tag.
+                </video>
+                <h3 className="text-lg font-semibold text-white">
+                  {e.alt}
+                </h3>
+                <p className="text-sm text-gray-300">{e.description}</p>
+              </div>
+            ))}
           </div>
         </div>
       </div>

@@ -28,8 +28,8 @@ export const testimonialsData = [
     desc: "I've been learning English with the academy for 6 months, and myconfidence has improved significantly. The teachers aresupportive and the classes are engaging. I highly recommend thisacademy to anyone who wants to learn English.",
   },
   {
-    imagepath: "/static/Rutvik.jpg",
-    name: "Mark Lee",
+    imagepath: "/static/Happy.jpg",
+    name: "Happy Rajput",
     desc: "The academy's personalized learning plans have helped me progress quickly. The classes are interactive and the teachers are encouraging. I feel more confident speaking English after joining this academy.",
   },
 ];
