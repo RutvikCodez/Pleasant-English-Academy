@@ -151,40 +151,38 @@ export const teamData = [
     name: "Rajput Sir",
     role: "Director",
     desc: "Rajput Sir has been guiding the academy with his vision and expertise for over a decade. With a profound understanding of English language teaching, he ensures the academy maintains high standards and delivers quality education to students.",
-    imageurl: "/static/Rutvik.jpg",
   },
   {
-    name: "Dharaben Vyas",
+    name: "Sandip Patel",
+    role: "Director",
+    desc: "Sandip Patel brings valuable leadership experience to the academy as a director. With his strategic thinking and dedication, he contributes to the growth and success of the academy.",
+  },
+  {
+    name: "Dhara Mam",
     role: "Spoken English Teacher",
     desc: "Dhara Mam is known for her patient and interactive teaching style. She focuses on helping students build confidence in spoken English through engaging activities and personalized attention, making learning enjoyable and effective.",
-    imageurl: "/static/Rutvik.jpg",
   },
   {
-    name: "Priyankaben Patel",
+    name: "Priyanka Mam",
     role: "Spoken English Teacher",
     desc: "Priyanka Mam brings years of teaching experience to the classroom, specializing in improving students' English language skills. Her dynamic teaching methods and emphasis on practical application ensure students make rapid progress in their language proficiency.",
-    imageurl: "/static/Rutvik.jpg",
   },
   {
-    name: "Akaashkumar Patel",
+    name: "Akaash Sir",
     role: "Spoken English Teacher",
     desc: "Akaash Sir is dedicated to helping students develop fluent English speaking skills. With a focus on conversation practice and real-life scenarios, he fosters an environment where students feel confident expressing themselves in English.",
-    imageurl: "/static/Rutvik.jpg",
   },
   {
-    name: "Rituben Patel",
+    name: "Ritu Mam",
     role: "IELTS Teacher",
     desc: "Ritu Mam specializes in IELTS preparation, providing comprehensive guidance and resources to help students achieve their desired scores. With detailed feedback and personalized strategies, she ensures students are well-prepared for the exam.",
-    imageurl: "/static/Rutvik.jpg",
   },
   {
-    name: "Abhaysinh Rajput",
+    name: "Abhay Sir",
     role: "PTE Teacher",
     desc: "Abhay Sir is an expert in PTE training, offering targeted instruction and practice materials to help students excel in the exam. With a focus on improving all language skills, he prepares students to achieve their desired scores.",
-    imageurl: "/static/Rutvik.jpg",
   },
 ];
-
 
 export const inputFieldsData: {
   name: "name" | "phoneNumber" | "email" | "time";
